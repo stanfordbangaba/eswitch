@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/scala"/>
+	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/java"/>
+	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar"/>
+	<classpathentry kind="lib" path="/home/stanford/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="lib/sorm-0.3.18.jar"/>
+	<classpathentry kind="lib" path="lib/scala-logging-slf4j_2.11-2.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/scala-logging-api_2.11-2.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0-0.9.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/embrace-0.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/joda-convert-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.8.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

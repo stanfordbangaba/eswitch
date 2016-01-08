@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">  
+  <persistence-unit name="eswitch">
+    <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+    <non-jta-data-source>eswitch</non-jta-data-source>
+    <class>zw.co.esol.eswitch.model.Message</class>
+    <class>zw.co.esol.eswitch.model.State</class>
+    <properties>
+      <property name="openjpa.RuntimeUnenhancedClasses" value="supported"/>
+      <property name="openjpa.DataCache" value="true"/>
+   	  <property name="openjpa.QueryCache" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
